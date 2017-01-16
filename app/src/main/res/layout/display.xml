@@ -2,25 +2,23 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#414141">
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText" />
+    android:background="#393939">
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Valider"
-        android:id="@+id/btnValider"
+        android:text="Vider liste"
+        android:id="@+id/btnVider"
         android:layout_gravity="center_horizontal" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Voir liste"
-        android:id="@+id/btnDisplay"
-        android:layout_gravity="right" />
+        android:text="Back"
+        android:id="@+id/btnBack" />
 
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="441dp"
+        android:id="@+id/listView" />
 </LinearLayout>

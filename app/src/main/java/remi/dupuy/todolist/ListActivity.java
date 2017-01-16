@@ -7,6 +7,7 @@ import java.util.List;
  * Created by dupuyr on 16/01/2017.
  */
 public class ListActivity {
+
     public List<String> getListTodo() {
         return listTodo;
     }
