@@ -38,13 +38,13 @@ public class AddTaskActivity extends Activity {
             @Override
             public void onClick(View v) {
                 ListActivity.getInstance().getListTodo().clear();
-                listview.setAdapter(new ArrayAdapter(getApplicationContext(), android.R.layout.simple_list_item_1,ListActivity.getInstance().getListTodo()));
+                listview.setAdapter(new ArrayAdapter(getApplicationContext(), R.layout.listviewcustom,ListActivity.getInstance().getListTodo()));
 
             }
         });
 
         listview = (ListView)findViewById(R.id.listView);
-        listview.setAdapter(new ArrayAdapter(getApplicationContext(), android.R.layout.simple_list_item_1,ListActivity.getInstance().getListTodo()));
+        listview.setAdapter(new ArrayAdapter(getApplicationContext(), R.layout.listviewcustom,ListActivity.getInstance().getListTodo()));
     }
 }
 
